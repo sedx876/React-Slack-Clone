@@ -7,7 +7,7 @@ function SidebarOption({ Icon, title }) {
       {Icon && <Icon className="sidebarOption__icon" />}
       {Icon ? <h3>{title}</h3> : 
       <h3 className="sidebarOption__channel">
-      <span classname="sidebarOption__hash">#</span> {title}
+      <span className="sidebarOption__hash">#</span> {title}
       </h3>}
     </div>
   )
